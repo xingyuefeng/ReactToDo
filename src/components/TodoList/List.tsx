@@ -11,7 +11,7 @@ const List: React.FC<ListProps> = (props) => {
           key={itm}
           title={itm}
           onClick={onClick}
-          checked={isSelected(itm) as any}
+          checked={isSelected(itm) as unknown as boolean}
         />
       ))}
     </div>

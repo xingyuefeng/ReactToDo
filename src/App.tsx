@@ -3,6 +3,8 @@ import { useState } from 'react'
 import Layout from './components/Layout'
 import TodoList from './components/TodoList'
 
+
+
 function App() {
   // 选中数据
   const [allChecked] = useState(['学习'])
@@ -12,7 +14,7 @@ function App() {
   // 列表变动监测的数据
   // list: 列表数据
   // checked: 已完成数据
-  const onListChange = (list: any[], checked: any[]) => {
+  const onListChange = (list: string[], checked: string[]) => {
     console.log('列表数据:',list)
     console.log('已完成数据:',checked)
   }

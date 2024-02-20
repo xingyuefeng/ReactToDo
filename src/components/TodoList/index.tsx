@@ -22,7 +22,7 @@ const TodoList: React.FC<TodoListProps> = (props) => {
 
 
   // item 点击事件 获取当前点击内容
-  const handleItemClick = (data: any) => {
+  const handleItemClick = (data: ContentType[]) => {
     select(data)
   }
 

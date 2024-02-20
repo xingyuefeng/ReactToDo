@@ -13,7 +13,7 @@ export interface ListItem{
 
 export interface TodoListProps {
   defaultData?: ContentType[]
-  allChecked?: any[]
+  allChecked?: ContentType[]
   onListChange?: (list: ContentType[], checked: ContentType[]) => void
 }
 
