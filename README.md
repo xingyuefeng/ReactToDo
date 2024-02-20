@@ -1,7 +1,7 @@
 ## 开发启动
 
 ```bash
-$ cd todo
+$ cd ReactToDo
 
 $ npm install
 
